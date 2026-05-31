@@ -1,0 +1,46 @@
+{
+    "path": {
+        "data": "data",
+        "models": "models",
+        "train" : "data/train",
+        "val" : "data/val"
+    },
+
+    "dataset": {
+        "train": "dataset/train.txt",
+        "val": "dataset/val.txt",
+        "test": "dataset/test.txt",
+        "info": "data/info.json"
+    },
+
+    "video": {
+        "train": "D:/Dataset/train",
+        "val": "D:/Dataset/val",
+        "test": "D:/Dataset/test"
+    },
+
+    "npy": {
+        "tx": "data/tx.npy",
+        "ty": "data/ty.npy",
+        "vx": "data/vx.npy",
+        "vy": "data/vy.npy"
+    },
+
+    "learn": {
+        "epochs": 100,
+        "batch_size": 16,
+        "learn_rate": 0.001,
+        "weight_decay": 0.01,
+        "label_smoothing": 0.1,
+        "t_max": 200,
+        "eta_min": 1e-5,
+        "grad_clip": 1.0
+    },
+
+    "main": {
+        "model": "model_100.00_acc_20_ep.pth",
+        "mirror_frame": true,
+        "accuracy_comparison": 80
+    }
+    
+}
