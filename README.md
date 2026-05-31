@@ -1,5 +1,6 @@
 # Программа диплома на тему<br>Распознавание жестового языка нейросетевыми методами
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Быстрый запуск
 Скачайте и распакуйте [архив](https://drive.google.com/drive/folders/1IYXGUd2e8jCYfawWUO4w1QGFDwyULNuH?usp=sharing)<br>
